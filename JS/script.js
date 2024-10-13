@@ -1,5 +1,4 @@
-
-let button1 = document.getElementById('6')
+const button1 = document.getElementById('6')
 
 button1.addEventListener('click', () => {
     const cont1=document.getElementById('71')
