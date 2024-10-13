@@ -1,49 +1,43 @@
-const button1 = document.getElementById('6')
 
+const button1 = document.getElementById('5')
 button1.addEventListener('click', () => {
-    const cont1=document.getElementById('71')
+    const cont1=document.getElementById('6')
     cont1.style.display='block'
 });
-const button2 = document.getElementById('71')
+const button2 = document.getElementById('7')
 
 button2.addEventListener('click', () => {
-    const cont1=document.getElementById('81')
+    const cont1=document.getElementById('8')
     cont1.style.display='block'
 });
-const button3 = document.getElementById('81')
+const button3 = document.getElementById('9')
 
 button3.addEventListener('click', () => {
-    const cont1=document.getElementById('91')
+    const cont1=document.getElementById('10')
     cont1.style.display='block'
 });
-const button4 = document.getElementById('91')
+const button4 = document.getElementById('11')
 
 button4.addEventListener('click', () => {
-    const cont1=document.getElementById('101')
+    const cont1=document.getElementById('12')
     cont1.style.display='block'
 });
-let button5 = document.getElementById('101')
+const button5 = document.getElementById('13')
 
 button5.addEventListener('click', () => {
-    const cont1=document.getElementById('111')
+    const cont1=document.getElementById('14')
     cont1.style.display='block'
 });
-let button6 = document.getElementById('12')
+const button6 = document.getElementById('15')
 
 button6.addEventListener('click', () => {
-    const cont1=document.getElementById('71')
-    const cont2=document.getElementById('81')
-    const cont3=document.getElementById('91')
-    const cont4=document.getElementById('101')
-    const cont5=document.getElementById('111')
     
+    for (let i=6;i<15;i) {
+        
+        let containerNumber =document.getElementById(i)
+        containerNumber.style.display='none'
+        i=i+2
+    }
     
-
-    
-    cont1.style.display='none'
-    cont2.style.display='none'
-    cont3.style.display='none'
-    cont4.style.display='none'
-    cont5.style.display='none'
 
 });
