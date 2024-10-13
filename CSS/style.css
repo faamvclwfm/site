@@ -35,19 +35,19 @@ a {
     height: calc(100vh + 24px) ;
     width: 100%;
 }
-.navigate {
+.navigatePanel {
     position: relative;
     z-index: 1;
-    display: flex;
-    align-items: center;
+    
+    
     
     height: 100px;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: flex-end;
     
 }
-.navigate li {
+.navigatePanel li {
     
     color: #fff5d1;
     font-weight: bold;
@@ -55,11 +55,11 @@ a {
     padding: 0 10px;
     
 }
-.nvl {
+.navigatePanelelement {
     position: relative;
     transition: all .25s ease;
 }
-.nvl::after {
+.navigatePanelelement::after {
     content: '';
     background: #fff5d1;
     
@@ -72,15 +72,15 @@ a {
     transition: all .25s ease;
 
 }
-.nvl:hover {
+.navigatePanelelement:hover {
     color: #ced671;
 }
 
-.nvl:hover::after {
+.navigatePanelelement:hover::after {
     transform: scaleX(1);
 }
 
-.navigate li:last-of-type a {
+.navigatePanel li:last-of-type a {
     display: block;
     height: 30px;
     line-height: 30px;
@@ -91,7 +91,7 @@ a {
     transition: all .25s ease;
 
 }
-.navigate li:last-of-type a:hover {
+.navigatePanel li:last-of-type a:hover {
     display: block;
     height: 30px;
     line-height: 30px;
@@ -102,15 +102,15 @@ a {
    
 
 }
-.content-header {
+.contentHeader {
     margin-top: 200px;
 }
-.content-header p {
+.contentHeader p {
     position: relative;
     z-index: 1;
     color: #fff5d1;
 }
-.content-header-title {
+.contentHeadertitle {
     position: relative;
     z-index: 1;
     font-size: 56px;
@@ -118,10 +118,10 @@ a {
     line-height: 84px;
     margin: auto;
 }
-.content-header-btn {
+.contentHeaderbutton {
     position: relative;
     z-index: 1;
-    display: block;
+    
     background-color: #414425;
     color: #fff5d1;
     font-size: .875rem;
@@ -139,73 +139,69 @@ a {
     min-height: 40px;
     transition: all .25s ease;
 }
-.content-header-btn:hover {
+.contentHeaderbutton:hover {
     background-color: #fff5d1;
     color: #414425;
 }
 
-.headline {
+.headLine {
     margin: 60px auto 40px auto;
     
     width: 900px;
     
 }
-.hs {
+.headLinetitle {
     padding: 200px;
 }
-.asp {
+.mainPoints {
     display: flex;
     height: 400px;
     font-weight: bold;
     font-size: 20px;
 
 }
-.asp1 img {
+.firstPoint img, .secondPoint img, .thirdPoint img {
     
-    height: 300px;
+    height: 55%;
 }
 
-.asp2 img {
-    height: 300px;
-
-}
-.asp3 img {
-    height: 300px;
-}
-.asp1 , .asp2 , .asp3 {
+.firstPoint , .secondPoint , .thirdPoint {
     width: 33%;
     text-align: center;
 }
-.ex {
+.explanationPoints {
     height:1500px;
-    width: 1000px;
+    width: 1200px;
     
     margin: 0 auto;
-    margin-bottom: 280px;
+    margin-bottom: 320px;
     
 }
-.f {
-    width: 1200px;
-    height: 500px;
+.firstExplanation {
+    width: 80%;
+    height: 40%;
     background-color: #414425;
-    margin-left: -300px;
+    position: relative;
+    margin: 0 auto;
+    left: -10%;
+    
     
 }
-.s {
-    height: 500px;
-    width: 1100px;
-    margin-left: 220px;
+.secondExplanation {
+    height: 40%;
+    width: 65%;
+    margin:0 auto;
     background-color: #5d6134;
 }
-.t {
-    height: 500px;
-    width: 1100px;
-    margin-left: -210px;
-    
-
+.thirdExplanation {
+    height: 40%;
+    width: 70%;
+    margin: 0 auto;
+    position: relative;
+    left: 10%;
     background-color: #9ba155;
 }
-.f, .s, .t {
+.firstExplanation, .secondExplanation, .thirdExplanation {
     border-radius: 50px;
     margin-bottom: 40px;
     padding: 60px;
@@ -213,38 +209,31 @@ a {
     box-shadow: 5px 5px 17px #2c2c2c;
     color:#fff5d1 ;
     font-size: 20px;
-    font-weight: 40px;
+    font-weight: 40;
     transition: all 2s ease;
 }
-.w {
+.boldText {
     font-weight: bold;
 }
-.f:hover {
+.firstExplanation:hover, .secondExplanation:hover, .thirdExplanation:hover {
     background-color: #fff5d1;
     color: #414425;
 }
-.s:hover {
-    background-color: #fff5d1;
-    color: #5d6134;
-}
-.t:hover {
-    background-color: #fff5d1;
-    color: #9ba155;
-}
-.why {
+
+.aspirationsTitle {
     text-align: center;
 }
-.first {
+.aspirationsDiv {
     display: flex;
     width: 1300px;
     margin: 30px auto 140px auto;
     justify-content: space-between;
 }
-.f11 , .s11 , .t11 {
+.firstDivaspirations , .secondDivaspirations , .thirdDivaspirations {
     position: relative;
     z-index: 1;
 }
-.f1 , .s1, .t1 {
+.firstAspiration , .secondAspiration, .thirdAspiration {
     position: relative;
     
     background-color: #f1eeee;
@@ -256,58 +245,62 @@ a {
     border-radius: 30px;
     
 }
-.f1 p , .s1 p, .t1 p{
+.firstAspiraton p, .secondAspiration p, .thirdAspiration p {
     font-size: 20px;
 }
-.why, .how, .kl{
+.aspirationsTitle, .normalLife, .keyValuestitle{
     margin-bottom: 70px;
 }
 
-.why1, .kl {
+.normalLifetitle, .keyValuestitle {
     text-align: center;
 }
-.main2-cl1 , .main2-cl2{
+.mainContentsecond {
+    margin-top: 500px;
+}
+.mainContentsecond-first , .mainContentsecond-second{
     margin-bottom: 120px;
 }
-.main2-cl3 {
-    margin-bottom: 150px;
+.mainContentsecond-third {
+    margin-bottom: 190px;
     height: 600px;
-}
-.main2-cl3-p1 {
-    display: flex;
     
 }
-.exp1 , .line1 , .line2, .line3 {
+.mainContentsecond-third-paragraph1 {
     display: flex;
     justify-content: space-around;
 }
-.image1 img {
-    width: 400px;
+.firstNormallifeDiv , .firstLinekey , .secondLinekey, .thirdLinekey {
+    display: flex;
+    justify-content: space-around;
 }
-.list1 {
+.imageTasklist img {
+    height: 400px;
+}
+.normalLifelist {
     font-size: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
-.list2 {
+.keyValueslist {
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
     width: 50%;
-    margin-right: 250px;
+    
     margin-left: 100px;
 }
-.f2 , .s2, .t2 , .fo2, .fi2 {
+.normalLifelistElement {
     width: 860px;
     position: relative;
     transition: all .25s ease;
 }
-.f2 p , .s2 p, .t2 p , .fo2 p, .fi2 p {
+.normalLifelistElement p {
     position: relative;
     transition: all .25s ease;
 }
-.f3, .s3, .t3, .fo3, .fi3, .si3, .se3, .e3, .n3 {
+.elementKey{
     width: 310px;
     background-color: #f1eeee;
     margin: 12px;
@@ -315,22 +308,22 @@ a {
     padding: 4px;
     border-radius: 16px;
     text-align: center;
+    justify-content: center;
     transition: all .25s ease;
     
 }
 
-.f3:hover, .s3:hover, .t3:hover, .fo3:hover, .fi3:hover, .si3:hover, .se3:hover, .e3:hover, .n3:hover {
+.elementKey:hover {
     width: 100vh;
     background-color: #d3d0d0;
     font-size: 20px;
     padding: 40px;
+    box-sizing: border-box;
     
 }
 
-.bold1 {
-    font-weight: bold;
-}
-.f2 p::after , .s2 p::after, .t2 p::after , .fo2 p::after, .fi2 p::after {
+
+.normalLifelistElement p::after{
     content: '';
     background: #5d6134;
     
@@ -342,14 +335,14 @@ a {
     transform: scaleX(0);
     transition: all .25s ease;
 }
-.f2 p:hover::after , .s2 p:hover::after, .t2 p:hover::after , .fo2 p:hover::after, .fi2 p:hover::after {
+.normalLifelistElement p:hover::after {
     
     transform: scaleX(1);
 }
-.image2 img {
-    width: 400px;
+.imageTravel img {
+    width: 300px;
 }
-.f1::after , .s1::after, .t1::after {
+.firstAspiration::after , .secondAspiration::after, .thirdAspiration::after {
     content: '';
     background-color: #ccd46b;
     position: absolute;
@@ -361,7 +354,7 @@ a {
     left: 0;
     transition: all 1s ease;
 }
-.f1:hover::after , .s1:hover::after, .t1:hover::after {
+.firstAspiration:hover::after , .secondAspiration:hover::after, .thirdAspiration:hover::after {
     content: '';
     background-color: #ccd46b;
     position: absolute;
@@ -374,7 +367,7 @@ a {
     transition: all .25s ease-in-out;
 }
 
-.main2-cl4 h1 {
+.mainContentsecond-fourth {
     text-align: center;
 }
 .loginForm {
@@ -409,7 +402,7 @@ input[type=text], select, textarea{
   }
   
   
-  .container {
+  .containerForm {
     border-radius: 24px;
     background-color: #f2f2f2;
     padding: 20px;
@@ -448,10 +441,10 @@ input[type=text], select, textarea{
       margin-top: 0;
     }
   }
-.list3 {
+.detailsList {
     position: relative;
 }
-.pc1, .pc2, .pc3 {
+.firstDetail, .secondDetail, .thirdDetail {
     position: relative;
     height: 600px;
     width: 55%;
@@ -466,7 +459,7 @@ input[type=text], select, textarea{
     
 }
 
-.pc1 button , .pc2 button , .pc3 button {
+.firstDetail button , .secondDetail button , .thirdDetail button {
     position: absolute;
     
     width: 150px;
@@ -480,22 +473,22 @@ input[type=text], select, textarea{
     font-family: 'Raleway';
     transition: all .25s ease;
 }
-.pc1 button:hover, .pc2 button:hover, .pc3 button:hover  {
+.firstDetail button:hover, .secondDetail button:hover, .thirdDetail button:hover  {
     cursor: pointer;
     background-color: #9ba155;
     color: #fff5d1;
 }
-.pc2 {
+.secondDetail {
     display: none;
     height: 450px;
     left: -10%;
 }
-.pc3 {
+.thirdDetail {
     display: none;
     height: 450px;
     left: 10%;
 }
-.main2-cl6 {
+.mainContentsecond-sixth {
     text-align: center;
     margin-top: 200px;
     font-size: 24px;
@@ -505,14 +498,19 @@ input[type=text], select, textarea{
     
    
 }
-.main2-cl6 a {
+.mainContentsecond-sixth a {
     color: inherit;
     text-decoration: none;
+   
+}
+.contactEmail {
     padding: 20px;
+    box-sizing: border-box;
     background-color: #5d6134;
     color: #fff5d1;
     font-weight: bold;
-    width: 20%;
+    width: 40%;
+    font-size: 3vh;
     margin: 0 auto;
     border-radius: 20px;
     margin-bottom: 100px;
