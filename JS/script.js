@@ -10,7 +10,7 @@ button2.addEventListener('click', () => {
     const cont1=document.getElementById('81')
     cont1.style.display='block'
 });
-let button3 = document.getElementById('81')
+const button3 = document.getElementById('81')
 
 button3.addEventListener('click', () => {
     const cont1=document.getElementById('91')
