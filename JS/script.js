@@ -4,7 +4,7 @@ button1.addEventListener('click', () => {
     const cont1=document.getElementById('71')
     cont1.style.display='block'
 });
-let button2 = document.getElementById('71')
+const button2 = document.getElementById('71')
 
 button2.addEventListener('click', () => {
     const cont1=document.getElementById('81')
