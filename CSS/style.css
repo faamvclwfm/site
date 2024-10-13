@@ -162,7 +162,7 @@ a {
 }
 .firstPoint img, .secondPoint img, .thirdPoint img {
     
-    height: 66%;
+    height: 55%;
 }
 
 .firstPoint , .secondPoint , .thirdPoint {
@@ -171,15 +171,15 @@ a {
 }
 .explanationPoints {
     height:1500px;
-    width: 1000px;
+    width: 1200px;
     
     margin: 0 auto;
-    margin-bottom: 280px;
+    margin-bottom: 320px;
     
 }
 .firstExplanation {
-    width: 70%;
-    height: 35%;
+    width: 80%;
+    height: 40%;
     background-color: #414425;
     position: relative;
     margin: 0 auto;
@@ -188,13 +188,13 @@ a {
     
 }
 .secondExplanation {
-    height: 35%;
+    height: 40%;
     width: 65%;
     margin:0 auto;
     background-color: #5d6134;
 }
 .thirdExplanation {
-    height: 35%;
+    height: 40%;
     width: 70%;
     margin: 0 auto;
     position: relative;
@@ -255,16 +255,20 @@ a {
 .normalLifetitle, .keyValuestitle {
     text-align: center;
 }
+.mainContentsecond {
+    margin-top: 500px;
+}
 .mainContentsecond-first , .mainContentsecond-second{
     margin-bottom: 120px;
 }
 .mainContentsecond-third {
-    margin-bottom: 150px;
+    margin-bottom: 190px;
     height: 600px;
     
 }
-.mainContentsecond-third-paragrapgh1 {
+.mainContentsecond-third-paragraph1 {
     display: flex;
+    justify-content: space-around;
 }
 .firstNormallifeDiv , .firstLinekey , .secondLinekey, .thirdLinekey {
     display: flex;
@@ -284,7 +288,7 @@ a {
     flex-direction: column;
     justify-content: space-between; 
     width: 50%;
-    margin-right: 250px;
+    
     margin-left: 100px;
 }
 .normalLifelistElement {
@@ -304,6 +308,7 @@ a {
     padding: 4px;
     border-radius: 16px;
     text-align: center;
+    justify-content: center;
     transition: all .25s ease;
     
 }
@@ -318,7 +323,7 @@ a {
 }
 
 
-.normalLifelistElement1 p::after , .normalLifelistElement2 p::after, .normalLifelistElement3 p::after , .normalLifelistElement4 p::after, .normalLifelistElement5 p::after {
+.normalLifelistElement p::after{
     content: '';
     background: #5d6134;
     
@@ -330,7 +335,7 @@ a {
     transform: scaleX(0);
     transition: all .25s ease;
 }
-.normalLifelistElement1 p:hover::after , .normalLifelistElement2 p:hover::after, .normalLifelistElement3 p:hover::after , .normalLifelistElement4 p:hover::after, .normalLifelistElement5 p:hover::after {
+.normalLifelistElement p:hover::after {
     
     transform: scaleX(1);
 }
@@ -496,12 +501,16 @@ input[type=text], select, textarea{
 .mainContentsecond-sixth a {
     color: inherit;
     text-decoration: none;
+   
+}
+.contactEmail {
     padding: 20px;
     box-sizing: border-box;
     background-color: #5d6134;
     color: #fff5d1;
     font-weight: bold;
-    width: 30%;
+    width: 40%;
+    font-size: 3vh;
     margin: 0 auto;
     border-radius: 20px;
     margin-bottom: 100px;
