@@ -1,4 +1,3 @@
-
 for (let i=5;i<14;i++) {
     const buttonID =document.getElementById(i)
     buttonID.addEventListener('click', () => {
@@ -8,10 +7,8 @@ for (let i=5;i<14;i++) {
 }
 const button6 = document.getElementById('15')
 button6.addEventListener('click', () => {
-    for (let i=6;i<15;i) {
-        
+    for (let i=6;i<15;i+=2) {
         let containerNumber =document.getElementById(i)
         containerNumber.style.display='none'
-        i=i+2
     }
 });
