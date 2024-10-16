@@ -172,7 +172,7 @@ a {
 }
 .thirdExplanation {
     height: 40%;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     left: 10%;
@@ -473,9 +473,10 @@ input[type=text], select, textarea{
         margin-bottom: 50px;
     }
     .firstExplanation, .secondExplanation, .thirdExplanation {
-        display: block;
-        width: 100%;
-        left: 0;
+        
+        width: 80%;
+        margin: 20px auto;
+        
     }
     .aspirationsDiv {
         display: flex;
@@ -485,7 +486,7 @@ input[type=text], select, textarea{
         justify-content: space-between;
     }
     .firstAspiration , .secondAspiration, .thirdAspiration {
-        position: relative;
+        
         background-color: #f1eeee;
         font-size: 14px;
         width: 100%;
@@ -540,4 +541,84 @@ input[type=text], select, textarea{
     }
     
 
+}
+@media screen and (max-width:1112px) {
+    .mainPoints {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 50px auto 850px auto;
+        
+    }
+    .firstPoint p, .secondPoint p, .thirdPoint p {
+        display: flex;
+        
+    }
+    .firstPoint img, .secondPoint img, .thirdPoint img {
+        
+        height: 40vh;
+        
+    }
+    .headLine {
+        margin: 50px auto;
+    }
+    
+}
+@media screen and (max-width:1161px) {
+    .firstExplanation, .secondExplanation, .thirdExplanation {
+        left: 0;
+        width: 700px;
+    }
+    .aspirationsTitle {
+        margin: 50px auto;
+        width: 80%;
+    }
+    .explanationPoints {
+        width: 700px;
+        
+    }
+    .mainContentsecond-first{
+        margin-top: 400px;
+    }
+    .secondDetail, .thirdDetail {
+        height: 700px;
+    }
+    .secondDetail p, .thirdDetail p {
+        width: 230px;
+    }
+}
+@media screen and (max-width: 986px) {
+    .contactEmail a {
+        width: 200px;
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:822px) {
+    .headLine {
+        font-size: 12px;
+        width: 720px;
+        margin: 50px auto;
+    }
+    .mainContent {
+        width: 600px;
+        margin: 50px auto;
+        height: 1400px;
+    }
+    .mainPoints {
+        width: 500px;
+        margin: 50px auto;
+    }
+}
+@media screen and (max-width:1008px) {
+    .contentHeader {
+        font-size: 24px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .mainContent {
+        height: 1100px;
+    }
+    
 }
