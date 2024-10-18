@@ -1,14 +1,12 @@
-for (let i=5;i<14;i++) {
-    const buttonID =document.getElementById(i)
-    buttonID.addEventListener('click', () => {
-        const containerId =document.getElementById(i+1)
-        containerId.style.display='block'
+const buttonsId = ['continueButtonfirst','continueButtonsecond','continueButtonthird','continueButtonfourth','continueButtonfifth']
+const sectionsId = ['someDetail1','someDetail2','someDetail3','someDetail4','someDetail5']
+buttonsId.forEach((button,index)=>{
+    document.getElementById(button).addEventListener('click',()=> {
+        document.getElementById(sectionsId[index]).style.display='block'
     })
-}
-const button6 = document.getElementById('15')
-button6.addEventListener('click', () => {
-    for (let i=6;i<15;i+=2) {
-        let containerNumber =document.getElementById(i)
-        containerNumber.style.display='none'
-    }
-});
+})
+document.getElementById('hideButton').addEventListener('click', ()=>{
+    sectionsId.forEach((index)=>{
+        const section =document.getElementById(index)
+        section.style.display='none'})
+})

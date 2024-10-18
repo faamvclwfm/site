@@ -406,7 +406,7 @@ input[type=text], select, textarea{
 }
 
 .firstDetail button , .secondDetail button , .thirdDetail button {
-    position: absolute;
+    
     
     width: 150px;
     height: 70px;
