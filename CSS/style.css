@@ -5,6 +5,7 @@ body{
     height: 3000px;
     font-family: 'Raleway',Arial, Helvetica, sans-serif;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -38,22 +39,16 @@ a {
 .navigatePanel {
     position: relative;
     z-index: 1;
-    
-    
-    
     height: 100px;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    
 }
 .navigatePanel li {
-    
     color: #fff5d1;
     font-weight: bold;
     font-size: 18px;
     padding: 0 10px;
-    
 }
 .navigatePanelelement {
     position: relative;
@@ -62,7 +57,6 @@ a {
 .navigatePanelelement::after {
     content: '';
     background: #fff5d1;
-    
     height: 2px;
     width: 100%;
     position: absolute;
@@ -70,16 +64,13 @@ a {
     left: 0;
     transform: scaleX(0);
     transition: all .25s ease;
-
 }
 .navigatePanelelement:hover {
     color: #ced671;
 }
-
 .navigatePanelelement:hover::after {
     transform: scaleX(1);
 }
-
 .navigatePanel li:last-of-type a {
     display: block;
     height: 30px;
@@ -89,7 +80,6 @@ a {
     color: #414425;
     border-radius: 3px;
     transition: all .25s ease;
-
 }
 .navigatePanel li:last-of-type a:hover {
     display: block;
@@ -99,8 +89,6 @@ a {
     background-color: #414425;
     color:#ced671 ;
     border-radius: 3px;
-   
-
 }
 .contentHeader {
     margin-top: 200px;
@@ -121,7 +109,6 @@ a {
 .contentHeaderbutton {
     position: relative;
     z-index: 1;
-    
     background-color: #414425;
     color: #fff5d1;
     font-size: .875rem;
@@ -143,12 +130,9 @@ a {
     background-color: #fff5d1;
     color: #414425;
 }
-
 .headLine {
     margin: 60px auto 40px auto;
-    
     width: 900px;
-    
 }
 .headLinetitle {
     padding: 200px;
@@ -158,13 +142,10 @@ a {
     height: 400px;
     font-weight: bold;
     font-size: 20px;
-
 }
 .firstPoint img, .secondPoint img, .thirdPoint img {
-    
     height: 55%;
 }
-
 .firstPoint , .secondPoint , .thirdPoint {
     width: 33%;
     text-align: center;
@@ -172,10 +153,8 @@ a {
 .explanationPoints {
     height:1500px;
     width: 1200px;
-    
     margin: 0 auto;
     margin-bottom: 320px;
-    
 }
 .firstExplanation {
     width: 80%;
@@ -184,8 +163,6 @@ a {
     position: relative;
     margin: 0 auto;
     left: -10%;
-    
-    
 }
 .secondExplanation {
     height: 40%;
@@ -195,7 +172,7 @@ a {
 }
 .thirdExplanation {
     height: 40%;
-    width: 70%;
+    width: 60%;
     margin: 0 auto;
     position: relative;
     left: 10%;
@@ -219,23 +196,22 @@ a {
     background-color: #fff5d1;
     color: #414425;
 }
-
 .aspirationsTitle {
     text-align: center;
 }
 .aspirationsDiv {
     display: flex;
-    width: 1300px;
+    width: 93%;
     margin: 30px auto 140px auto;
     justify-content: space-between;
 }
 .firstDivaspirations , .secondDivaspirations , .thirdDivaspirations {
     position: relative;
     z-index: 1;
+    
 }
 .firstAspiration , .secondAspiration, .thirdAspiration {
     position: relative;
-    
     background-color: #f1eeee;
     font-size: 14px;
     width: 400px;
@@ -243,7 +219,6 @@ a {
     padding: 50px;
     box-sizing: border-box;
     border-radius: 30px;
-    
 }
 .firstAspiraton p, .secondAspiration p, .thirdAspiration p {
     font-size: 20px;
@@ -251,7 +226,6 @@ a {
 .aspirationsTitle, .normalLife, .keyValuestitle{
     margin-bottom: 70px;
 }
-
 .normalLifetitle, .keyValuestitle {
     text-align: center;
 }
@@ -259,11 +233,10 @@ a {
     margin-top: 500px;
 }
 .mainContentsecond-first , .mainContentsecond-second{
-    margin-bottom: 120px;
+    margin-bottom: 90px;
 }
 .mainContentsecond-third {
-    margin-bottom: 190px;
-    height: 600px;
+    margin-bottom: 110px;
     
 }
 .mainContentsecond-third-paragraph1 {
@@ -288,11 +261,10 @@ a {
     flex-direction: column;
     justify-content: space-between; 
     width: 50%;
-    
     margin-left: 100px;
 }
 .normalLifelistElement {
-    width: 860px;
+    width: 90%;
     position: relative;
     transition: all .25s ease;
 }
@@ -310,23 +282,17 @@ a {
     text-align: center;
     justify-content: center;
     transition: all .25s ease;
-    
 }
-
 .elementKey:hover {
     width: 100vh;
     background-color: #d3d0d0;
     font-size: 20px;
     padding: 40px;
     box-sizing: border-box;
-    
 }
-
-
 .normalLifelistElement p::after{
     content: '';
     background: #5d6134;
-    
     height: 3px;
     width: 100%;
     position: absolute;
@@ -336,7 +302,6 @@ a {
     transition: all .25s ease;
 }
 .normalLifelistElement p:hover::after {
-    
     transform: scaleX(1);
 }
 .imageTravel img {
@@ -366,9 +331,10 @@ a {
     left: 20px;
     transition: all .25s ease-in-out;
 }
-
 .mainContentsecond-fourth {
     text-align: center;
+    
+
 }
 .loginForm {
     width: 55%;
@@ -382,15 +348,11 @@ input[type=text], select, textarea{
     box-sizing: border-box;
     resize: vertical;
   }
-  
-  
   label {
     padding: 12px 12px 12px 0;
     display: inline-block;
     font-weight: bold;
   }
-  
-  
   input[type=submit] {
     background-color: #9ba155;
     color: white;
@@ -400,24 +362,18 @@ input[type=text], select, textarea{
     cursor: pointer;
     float: right;
   }
-  
-  
   .containerForm {
     border-radius: 24px;
     background-color: #f2f2f2;
     padding: 20px;
-    width: 1000px;
+    width: 80%;
     margin: 50px auto 50px auto;
   }
-  
-  
   .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
   }
-  
-  
   .col-75 {
     float: left;
     width: 75%;
@@ -426,21 +382,12 @@ input[type=text], select, textarea{
   .row {
     margin-top: 20px;
   }
-  
-  
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  
 
-  @media screen and (max-width: 600px) {
-    .col-25, .col-75, input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
 .detailsList {
     position: relative;
 }
@@ -456,11 +403,10 @@ input[type=text], select, textarea{
     border-radius: 100px;
     background-color: #5d6134;
     color: #fff5d1;
-    
 }
 
 .firstDetail button , .secondDetail button , .thirdDetail button {
-    position: absolute;
+    
     
     width: 150px;
     height: 70px;
@@ -495,8 +441,6 @@ input[type=text], select, textarea{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
-   
 }
 .mainContentsecond-sixth a {
     color: inherit;
@@ -514,4 +458,167 @@ input[type=text], select, textarea{
     margin: 0 auto;
     border-radius: 20px;
     margin-bottom: 100px;
+}
+
+@media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+@media screen  and (max-width:1216px){
+    .explanationPoints {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .firstExplanation, .secondExplanation, .thirdExplanation {
+        
+        width: 80%;
+        margin: 20px auto;
+        
+    }
+    .aspirationsDiv {
+        display: flex;
+        flex-direction: column;
+        width: 93%;
+        margin: 30px auto 50px auto;
+        justify-content: space-between;
+    }
+    .firstAspiration , .secondAspiration, .thirdAspiration {
+        
+        background-color: #f1eeee;
+        font-size: 14px;
+        width: 100%;
+        height: 20%;
+        padding: 50px;
+        font-size: 24px;
+        box-sizing: border-box;
+        border-radius: 30px;
+        margin-bottom: 36px;
+    }
+    .aspirationsTitle p {
+        text-align: center;
+        width: 99%;
+        margin: 0 auto;
+    }
+    .mainContentsecond {
+        margin-top: 150px;
+    }
+    .firstNormallifeDiv {
+        flex-direction: column-reverse;
+    }
+    .normalLifelist {
+        margin: 0 auto;
+        margin-left: 5%;
+        width: 100%;
+    }
+    .imageTasklist {
+        margin: 0 auto;
+        
+    }
+    .mainContentsecond-third-paragraph1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .keyValueslist {
+        width: 100%;
+        margin: 0 auto;
+    }
+    .firstDetail {
+        width: 800px;
+    }
+    .header {
+        font-size: 36px;
+    }
+    .contentHeaderbutton {
+        font-size: 24px;
+        width: 240px;
+        height: 80px;
+    }
+    .navigatePanel a {
+        font-size: 26px;
+    }
+    
+
+}
+@media screen and (max-width:1112px) {
+    .mainPoints {
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin: 50px auto 850px auto;
+        
+    }
+    .firstPoint p, .secondPoint p, .thirdPoint p {
+        display: flex;
+        
+    }
+    .firstPoint img, .secondPoint img, .thirdPoint img {
+        
+        height: 40vh;
+        
+    }
+    .headLine {
+        margin: 50px auto;
+    }
+    
+}
+@media screen and (max-width:1161px) {
+    .firstExplanation, .secondExplanation, .thirdExplanation {
+        left: 0;
+        width: 700px;
+    }
+    .aspirationsTitle {
+        margin: 50px auto;
+        width: 80%;
+    }
+    .explanationPoints {
+        width: 700px;
+        
+    }
+    .mainContentsecond-first{
+        margin-top: 400px;
+    }
+    .secondDetail, .thirdDetail {
+        height: 700px;
+    }
+    .secondDetail p, .thirdDetail p {
+        width: 230px;
+    }
+}
+@media screen and (max-width: 986px) {
+    .contactEmail a {
+        width: 200px;
+        font-size: 20px;
+    }
+    
+}
+@media screen and (max-width:822px) {
+    .headLine {
+        font-size: 12px;
+        width: 720px;
+        margin: 50px auto;
+    }
+    .mainContent {
+        width: 600px;
+        margin: 50px auto;
+        height: 1400px;
+    }
+    .mainPoints {
+        width: 500px;
+        margin: 50px auto;
+    }
+}
+@media screen and (max-width:1008px) {
+    .contentHeader {
+        font-size: 24px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .mainContent {
+        height: 1100px;
+    }
+    
 }
